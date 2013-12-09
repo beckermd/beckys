@@ -211,7 +211,7 @@ include "connection.php";
 							<h3>Sugerencias/Comentarios</h3>
 							<input type="text" name="comments" class="form-control input-lg">
                                  <h4> Nombre</h4>
-                            <!--Comentario de prueba-->
+                            <!--Coment ario de prueba-->
                             <input type="text" name="NameSugerencia"></br>
                             <br />
 							<button type="submit" class="btn btn-primary">Enviar</button>
