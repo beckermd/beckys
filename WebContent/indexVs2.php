@@ -1,95 +1,31 @@
 <!DOCTYPE html>
 <?php
-$_picture= array( "img/soja.jpg",
-				  "img/diseniadora.jpg", 
-				  "img/logodorado.jpg");
+$pageName='indexVs2.php';
 include "connection.php";
+include "Encabezado.html";
 
 ?>
-<html lang="en">
-<head>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-<title>"Milanesas de Soja Becky's"</title>
 
-<link rel="stylesheet" href="css/bootstrap.min.css">
-</head>
-<body style="background: #FFFFFF">
-	<div id="fb-root"></div>
-	<script>
-		(function(d, s, id) {
-			var js, fjs = d.getElementsByTagName(s)[0];
-			if (d.getElementById(id))
-				return;
-			js = d.createElement(s);
-			js.id = id;
-			js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-			fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));
-	</script>
-	<div class="container" id="container">
-		<div class="page-header" id="banner">
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="bsa well">
-						<div id="bsap_1277971" class="bsap_1277971 bsap">
-							<div class="bsa_it one">
-								<div class="bsa_it_ad ad1 odd" id="bsa_2634550">
-									<img src="img/logo.jpg" width=100 height=100></img>
-									<div style="clear: both"></div>
-									<h1>Milanesas Becky's</h1>
-									<h5>
-										<b>100% Caseras, libres de conservantes</b>
-									</h5>
-									<div class="g-plusone" data-size="medium"
-										data-annotation="none" data-width="300"></div>
-									<script type="text/javascript">
-										(function() {
-											var po = document
-													.createElement('script');
-											po.type = 'text/javascript';
-											po.async = true;
-											po.src = 'https://apis.google.com/js/plusone.js';
-											var s = document
-													.getElementsByTagName('script')[0];
-											s.parentNode.insertBefore(po, s);
-										})();
-									</script>
-									<!-- Botones de likes de pinterest y google + FACEBOOK aun no funciona (Nov-2013) -->
-									<div class="fb-like"
-										data-href="http://localhost:8080/eclipse/workspace/beckys/webcontent/indexVs2.php"
-										data-width="500" data-layout="button_count" data-action="like"
-										data-show-faces="false" data-share="true"></div>
-									<a
-										href="//www.pinterest.com/pin/create/button/?url=http%3A%2F%2Flocalhost%3A8080%2Feclipse%2Fworkspace%2Fbeckys%2Fwebcontent%2FindexVs2.php&media=http%3A%2F%2Flocalhost%3A8080%2Feclipse%2Fworkspace%2Fbeckys%2Fwebcontent%2Fimg%2Fmilanesas.jpg&description=milanesas%20de%20Soja"
-										data-pin-do="buttonPin" data-pin-config="above"><img
-										src="//assets.pinterest.com/images/pidgets/pin_it_button.png" /></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+			<div class="panel-body">      <!-- Para cambiar la posicion del cuadro utilice el archivo bootstrp-theme.css en el "panel-body" container:after{clear:both}.row{margin-right:-15px;margin-left:15px}.-->
 
-		</div>
-		<div>
-			<div class="panel-body">
-				<h2>Recetas</h2>
+				<h1>Recetas</h1>
 				<img src="img/milanesas.jpg" alt="Facebook page" width=360
-					height=250 class="img-thumbnail" />
-				<div class="col-lg-4">
+					height=340 class="img-thumbnail" />
+				<div class="col-lg-4 well">
 					<ul>
 						<li class="list-group-item"><span class="badge">12</span>
-							<h4>Ensaladas</h4></li>
+							<h3>Ensaladas</h3></li>
 						<li class="list-group-item"><span class="badge">5</span>
-							<h4>
+							<h3>
 								<i>Platos Calientes</i>
-							</h4></li>
+							</h3></li>
 						<li class="list-group-item"><span class="badge">12</span>
-							<h4>Apettizer</h4></li>
+							<h3>Apettizer</h3></li>
 					</ul>
 				</div>
 			</div>
 		</div>
+
 		<hr />
 		<form id="pedidos" action='createPedido.php' method="post">
 			<div class="row show-grid">
@@ -222,22 +158,12 @@ include "connection.php";
 			</div>
 		</form>
 
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="panel-body">
-					<h2>Follow us</h2>
-
-
-					<a href="https://www.facebook.com/milanesas.beckys?fref=ts"><img
-						src=img/facebook.jpeg width=50 height=50> </a> <a
-						href="https://twitter.com/pablobecker89"><img
-						src=img/twtr.jpeg width=45 height=45> </a>
-				</div>
-			</div>
-		</div>
-
 	</div>
 	<script src="js/bootstrap.min.js"></script>
 </body>
 <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
 </html>
+<?php
+
+include "PiedePagina.html";
+?>
