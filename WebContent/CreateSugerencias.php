@@ -1,11 +1,12 @@
 <?php
 include 'connection.php';
+include "Encabezado.html";
 
 $_Sugerencias=$_POST['comments'];
 $_NameS=$_POST['NameSugerencia'];
 
 $queryResult = mysql_query(
-    "INSERT INTO beckys.sugerencias (Name, Sugerencias)
+    "INSERT INTO beckys.sugerencias (NameSugerente, Sugerencias)
   VALUES('$_NameS', '$_Sugerencias')");
 if (!$queryResult) {
     print($queryResult);
@@ -13,3 +14,5 @@ if (!$queryResult) {
 }
 
 echo "Gracias ".$_NameS." por sus comentarios!";
+
+include "PiedePagina.html";

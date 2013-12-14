@@ -1,7 +1,53 @@
+.set-margin {
+
+    margin-left: 20px;
+    padding: 0;
+    margin-right: 15px;
+    margin-bottom: 8px;
+}
+
+.central-margin {
+    margin-right:0;
+    margin-left: 120px;
+    ;
+}
+.central-margin2 {
+    margin-right:0;
+    margin-left: 120px;}
+.central-margin3 {
+    margin-right:0;
+    margin-left: 60px;}
+.margin-titulo {
+    margin-left: 500px;
+}
+.margin-likes {
+    margin-left: 1030px;
+    margin-top: 80px;
+}
+
+.font {
+
+    font-family: Papyrus, fantasy;
+}
+
+
+.pie-margin {
+    margin-right:120px;
+    margin-left: 100px;
+}
+.panel-margin {
+    margin-bottom: 12px;
 
 }
-.input-group{
-    background-size: 200px;
-    width: 100px;
-    border: 20px
+.size-banner{
+
+    width: 935px;
+    height: 180px;
+    margin-left: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.top-buffer {
+    margin-top:10px;
 }

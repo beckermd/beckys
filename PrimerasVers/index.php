@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <title>"Milanesas de Soja Becky's"</title>
 
-<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="../WebContent/css/bootstrap.min.css">
 </head>
 <body style="background: #FFFFFF">
 
@@ -16,7 +16,7 @@
 						<div id="bsap_1277971" class="bsap_1277971 bsap">
 							<div class="bsa_it one">
 								<div class="bsa_it_ad ad1 odd" id="bsa_2634550">
-									<img src="img/logo.jpg" width=100 height=100 ></img>
+									<img src="../WebContent/img/logo.jpg" width=100 height=100 ></img>
 									<div style="clear: both"></div>
 									<h1>Milanesas Becky's</h1>
 									<h5>
@@ -32,7 +32,7 @@
 		<div>
 			<div class="panel-body">
 				<h2>Recetas</h2>
-				<img src="img/milanesas.jpg" alt="Facebook page" width=360
+				<img src="../WebContent/img/milanesas.jpg" alt="Facebook page" width=360
 					height=250 class="img-thumbnail" />
 				<div class="col-lg-4">
 					<ul>
@@ -58,7 +58,7 @@
 						<div class="panel panel-primary">
 							<div class="panel-body">
 								<h2>Pedidos</h2>
-								<img src="img/pedidos.jpg" width=250 height=100
+								<img src="../WebContent/img/pedidos.jpg" width=250 height=100
 									class="img-thumbnail">
 								<div class="input-group">
 									<span class="input-group-addon">Cebolla y Queso</span><input
@@ -122,7 +122,7 @@
 							
 								<h3>Horario de Entrega</h3>
 								<div>
-							<img src="img/clock.gif" width=50 height=50
+							<img src="../WebContent/img/clock.gif" width=50 height=50
 									class="img-thumbnail"> <br />
 								</div>
 								<h4>Maniana(10am-1pm)</h4>
@@ -180,6 +180,6 @@
 		<?php
 		?>
 	</div>
-	<script src="js/bootstrap.min.js"></script>
+	<script src="../WebContent/js/bootstrap.min.js"></script>
 </body>
 </html>
