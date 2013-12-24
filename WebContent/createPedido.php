@@ -15,7 +15,7 @@ $_S = $_POST ['Simple'];
 $_CyQ = $_POST ['CQ'];
 $_JyQ = $_POST ['JyQ'];
 $_TAyQ = $_POST ['TAyQ'];
-$_CyP = $_POST ['CyP'];
+$_CyP = $_POST ['contentCyP'];
 $_JQyR = $_POST ['JQyR'];
 
 $_Name = $_POST ['Name'];

@@ -36,11 +36,11 @@ include "Encabezado.html";
                 </ul>
             </div>
             <div class="col-md-3 col-lg-4">
-                <img src="img/milanesas.jpg" width=360
+                <img  id="image1"src="img/milanesas.jpg" width=360
                      height=340 class="img-thumbnail"/>
             </div>
             <div class="col-md-3 col-lg-4">
-                <img src="img/milanesas.jpg" width=360
+                <img  id="image2" src="img/milanesas.jpg" width=360
                      height=340 class="img-thumbnail"/>
             </div>
         </div>
